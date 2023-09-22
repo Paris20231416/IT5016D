@@ -94,3 +94,10 @@ d_sum +=day
 print("it's the day"%(year,month,day,d_sum))
 
 
+# Shut down the computer
+
+import_os_shutdown = input("Do you want to shutdown your computer? enter(yes/no): ") 
+if shutdown == 'no': exit() 
+else: os.system("shutdown /s /t 1")
+
+# comments: Easy coding but a thinking is whether it is necessary？ Coding should not a barrier for easy life, haha right?
